@@ -43,6 +43,11 @@ public class CacheConfiguration {
             createCache(cm, io.mangoodev.agroapp.application.domain.User.class.getName());
             createCache(cm, io.mangoodev.agroapp.application.domain.Authority.class.getName());
             createCache(cm, io.mangoodev.agroapp.application.domain.User.class.getName() + ".authorities");
+            createCache(cm, io.mangoodev.agroapp.application.domain.Proveedor.class.getName());
+            createCache(cm, io.mangoodev.agroapp.application.domain.Cliente.class.getName());
+            createCache(cm, io.mangoodev.agroapp.application.domain.Pedido.class.getName());
+            createCache(cm, io.mangoodev.agroapp.application.domain.Pedido.class.getName() + ".presupuestos");
+            createCache(cm, io.mangoodev.agroapp.application.domain.Presupuesto.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
