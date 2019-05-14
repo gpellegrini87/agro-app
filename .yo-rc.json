@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "AgroApp",
+    "packageName": "io.mangoodev.agroapp.application",
+    "packageFolder": "io/mangoodev/agroapp/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "NDY2ODVmOTdlNTE5ZmE0NjUyMzNjYzZlOWQyMTY5NGY1ZTRhZGY5NTQxMTAzZTlmY2VhZWU5ODllNWQyODE5ZWJhZDBiMmI5NzkwYTQ4YTk4OWY5ZmU2M2I5MzcwZTc0MDNiZjRmMTJmN2I4ZGU0MDcxZjZmODQ3NmE5ZTIxMWI=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "gpellegrini87",
+  "repository-name": "agro-app"
+}
